@@ -10,7 +10,7 @@ struct point
     T x;
     T y;
 
-    point() : x(), y(), right(), bottom() { }
+    point() : x(), y() { }
 
     point(T x, T y) : x(x), y(y) { }
 };
