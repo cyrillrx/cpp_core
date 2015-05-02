@@ -4,17 +4,17 @@
 
 #pragma once
 
-template<class T>
-struct rect
+template<typename T>
+struct Rect
 {
     T left;
     T top;
     T right;
     T bottom;
 
-    rect() : left(), top(), right(), bottom() { }
+    Rect() : left(), top(), right(), bottom() { }
 
-    rect(T left, T top, T right, T bottom) : left(left), top(top), right(right), bottom(bottom) { }
+    Rect(T left, T top, T right, T bottom) : left(left), top(top), right(right), bottom(bottom) { }
 
     T width() { return right - left; }
 

@@ -4,13 +4,13 @@
 
 #pragma once
 
-template<class T>
-struct point
+template<typename T>
+struct Point
 {
     T x;
     T y;
 
-    point() : x(), y() { }
+    Point() : x(), y() { }
 
-    point(T x, T y) : x(x), y(y) { }
+    Point(T x, T y) : x(x), y(y) { }
 };
