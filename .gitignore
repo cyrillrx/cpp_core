@@ -1,0 +1,32 @@
+# MacOS garbage
+.DS_Store
+
+# temp files
+*~*
+
+# Intellij project files
+.idea/
+
+# VS project files
+*.suo
+*.sdf
+*.opensdf
+*.user
+*.filters
+*.log
+*.layout
+.directory
+.objs
+Debug
+Release
+include
+lib
+ipch
+
+# Conan.io
+conanbuildinfo.*
+conaninfo.txt
+conanfile.pyc
+
+# Other
+build/
